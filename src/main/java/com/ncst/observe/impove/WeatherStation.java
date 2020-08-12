@@ -1,4 +1,4 @@
-package com.ncst.observe;
+package com.ncst.observe.impove;
 
 /**
  * @Date 2020/8/11 19:12
@@ -8,7 +8,7 @@ package com.ncst.observe;
 public class WeatherStation {
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();
-        CurrentConDisplay conDisplay1 = new CurrentConDisplay(weatherData);
+        CurrentConditionsDisplay conDisplay1 = new CurrentConditionsDisplay(weatherData);
         ForecastDisplay conDisplay2= new ForecastDisplay(weatherData);
 
         StaticConDisplay conDisplay = new StaticConDisplay(weatherData);
